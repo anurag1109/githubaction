@@ -1,0 +1,6 @@
+on : push
+jobs :
+      first-jobs:
+          runs-on : ubuntu-latest
+          steps :
+                - run : node --version
