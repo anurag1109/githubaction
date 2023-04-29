@@ -5,6 +5,7 @@ jobs :
    steps :
     - run : node --version
     - run: npm --version
+    - uses: actions/setup-node@v2
     - uses: actions/checkout@v2  
     - run: npm install 
     - uses: actions/checkout@v3
