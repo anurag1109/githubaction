@@ -10,4 +10,6 @@ jobs :
       with:
         node-version: '14.x'
     - run: npm install 
+    - run: npx eslint index.js
+    - run: npx eslint data.js
     - run: npm run test
